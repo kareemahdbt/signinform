@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #c41c00, #ffbb93);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.glass {
+  background: white;
+  width: 30%;
+  background: linear-gradient(
+    to left bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  border-radius: 20px;
+}
+h2 {
+  color: #870000;
+  opacity: 0.9;
+  font-weight: 800;
+}
+p {
+  color: #870000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+input {
+  display: flex;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  opacity: 3;
+  width: 100%;
+  height: 40px;
+}
+.btn {
+  margin: 20px 90px;
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: #005662;
+  color: white;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
+
+.btn:hover {
+  background: #00363a;
+  color: white;
+}
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+h4 {
+  margin: 10px 0px 10px 130px;
+}
+
+.btn-2 {
+  border: none;
+  outline: none;
+  width: 30%;
+  height: 30px;
+  border-radius: 10px;
+  background: #006978;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.btn-2:hover {
+  background: #00363a;
+}
+.btn-2 a {
+  color: white;
+}
